@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 300px;
+    gap: 30px;
+    height: 100vh;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.item1 {
+    background-color: lightgreen;
+    background-image: url(./assests/girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: 1 / span2;
+}
+
+.item1-img img {
+    margin: 50px;
+    height: 40px;
+    width: 120px;
+}
+
+.item2 {
+    grid-column: 2 / span1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+}
+
+.line {
+    border-bottom: 2px solid black;
+    width: 400px;
+    height: 1px;
+    padding-top: 10px;
+}
+
+.item3 {
+    background-color: #fff;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    height: 370px;
+}
+
+.item4-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: end;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.icons img {
+    width: 20px;
+    height: 20px;
+    margin: 24px;
+}
+
+.item4-content-text {
+    width: 70px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.item4-button {
+    height: 70px;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 4 / span2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item5-section1 {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 307px;
+}
+
+.item5-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.girls-dancing-img {
+    height: 200px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.section2-text {
+    width: 350px;
+    margin-top: 10px;
+}
+
+.sign-img {
+    height: 30px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.item5-section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.item5-section3 img {
+    height: 100px;
+}
